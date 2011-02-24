@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `wp_add_users_queue` (
+  `add_users_ID` bigint(20) unsigned NOT NULL auto_increment,
+  `add_users_site_ID` bigint(20),
+  `add_users_blog_ID` bigint(20),
+  `add_users_batch_ID` varchar(255),
+  `add_users_user_email` varchar(255),
+  `add_users_user_role` varchar(255),
+  PRIMARY KEY  (`add_users_ID`)
+) ENGINE=MyISAM;

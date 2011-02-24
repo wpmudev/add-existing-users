@@ -1,0 +1,11 @@
+Plugin Name: Add Existing Users
+Author: Andrew Billits, Ulrich Sossou
+
+Change Log:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+1.1.1 - 02/24/2011
+----------------------------------------------------------------------
+- Enhancement: compatibility with WordPress 3.1
+- Enhancement: internationalization
