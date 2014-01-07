@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Add Existing Users\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-07 15:53+0100\n"
+"PO-Revision-Date: 2014-01-07 15:53+0100\n"
+"Last-Translator: Ignacio <igmoweb@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../add-existing-users.php:135
+#: ../add-existing-users.php:201
+msgid "Add Existing Users"
+msgstr ""
+
+#: ../add-existing-users.php:176
+msgid "Users have been added."
+msgstr ""
+
+#: ../add-existing-users.php:202
+msgid "This tool allows you to create existing users on this site to your blog."
+msgstr ""
+
+#: ../add-existing-users.php:206
+#, php-format
+msgid "To add new users that have not already been created, please use the <a href=\"%s\">Add New Users functionality here</a>."
+msgstr ""
+
+#: ../add-existing-users.php:210
+#, php-format
+msgid "To add users simply enter each user's email and select a role for them on this blog - you can find out more about different levels of access for different roles <a href=\"%s\">here</a>."
+msgstr ""
+
+#: ../add-existing-users.php:220
+msgid "User Email"
+msgstr ""
+
+#: ../add-existing-users.php:223
+msgid "Required"
+msgstr ""
+
+#: ../add-existing-users.php:231
+msgid "User Role"
+msgstr ""
+
+#: ../add-existing-users.php:241
+msgid "Submit"
+msgstr ""
+
+#: ../add-existing-users.php:243
+msgid "This may take some time so please be patient."
+msgstr ""
+
+#: ../add-existing-users.php:289
+#, php-format
+msgid "The user with email address <strong>%s</strong> could not be found"
+msgstr ""
+
+#: ../add-existing-users.php:305
+#, php-format
+msgid "Email <strong>%s</strong> is not a valid one"
+msgstr ""
+
+#: ../add-existing-users.php:315
+msgid "No data to process"
+msgstr ""
+
