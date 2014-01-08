@@ -80,7 +80,7 @@ class Incsub_Add_Users {
 
 		global $wpmudev_notices;
 		$wpmudev_notices[] = array( 'id'=> 175,'name'=> 'Add Existing Users', 'screens' => array( 'users_page_add-existing-users' ) );
-		include_once( MULTISTE_CC_INCLUDES_DIR . 'dash-notice/wpmudev-dash-notification.php' );
+		include_once( plugin_dir_path( __FILE__ ) . 'externals/wpmudev-dash-notification.php' );
 
 		// add admin menu page
 		add_action( 'admin_menu', array( &$this, 'plug_pages' ) );
@@ -199,7 +199,7 @@ class Incsub_Add_Users {
 		?>
 		<div class="wrap">
 			<h2><?php _e( 'Add Existing Users', $this->lang_domain  ); ?></h2>
-			<p><?php _e( 'This tool allows you to create existing users on this site to your blog.', $this->lang_domain  ); ?></p>
+			<p><?php _e( 'This tool allows you to add existing users on this site to your blog.', $this->lang_domain  ); ?></p>
 
 			<?php if ( class_exists( 'Add_New_Users' ) ): ?>
 				<?php $add_new_users_url = add_query_arg( 'page', 'add-new-users', admin_url( 'users.php' ) ); ?>
