@@ -219,7 +219,7 @@ class Incsub_Add_Users {
 						<tr valign="top">
 							<th scope="row"><?php _e( 'User Email', $this->lang_domain ) ?></th>
 							<td>
-								<input type="text" name="user_email_<?php echo $counter; ?>" id="user_email_<?php echo $counter; ?>" class="medium-text" <?php echo $color; ?> value="<?php echo esc_attr( $user_email ); ?>" />
+								<input type="text" name="user_email_<?php echo $counter; ?>" id="user_email_<?php echo $counter; ?>" class="medium-text" value="<?php echo esc_attr( $user_email ); ?>" />
 								<span class="description"> <?php _e( 'Required', $this->lang_domain ) ?></span>
 								<?php if ( isset( $this->form_errors[ 'user_email_' . $counter ] ) ): ?>
 									<br/><span style="color:red"><?php echo $this->form_errors[ 'user_email_' . $counter ]->get_error_message(); ?></span>
