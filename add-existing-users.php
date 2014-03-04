@@ -2,9 +2,9 @@
 /*
 Plugin Name: Add Existing Users
 Plugin URI:
-Description:
-Author: Andrew Billits, Ulrich Sossou, Ignacio Cruz
-Version: 1.2
+Description: Allows you to bulk add existing users to a site, including the facility to set their role.
+Author: WPMUDEV
+Version: 1.2.1
 Text Domain: add_users
 Author URI: http://premium.wpmudev.org
 WDP ID: 175
@@ -25,7 +25,7 @@ class Incsub_Add_Users {
 	 * Current version number
 	 *
 	 **/
-	var $current_version = '1.2';
+	var $current_version = '1.2.1';
 
 	/**
 	 * Version slug for options table
@@ -132,7 +132,7 @@ class Incsub_Add_Users {
 	 *
 	 **/
 	function plug_pages() {
-		$this->page_id = add_submenu_page( 'users.php', __( 'Add Existing Users', $this->lang_domain ), __( 'Add Existing Users', $this->lang_domain ), 'edit_users', $this->menu_slug, array( &$this, 'page_output' ) );
+		$this->page_id = add_submenu_page( 'users.php', __( 'Add Existing Users', $this->lang_domain ), __( 'Add Existing Users', $this->lang_domain ), 'manage_options', $this->menu_slug, array( &$this, 'page_output' ) );
 		add_action( 'load-' . $this->page_id, array( &$this, 'sanitize_form' ) );
 	}
 
