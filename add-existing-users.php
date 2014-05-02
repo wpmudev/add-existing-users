@@ -3,7 +3,7 @@
 Plugin Name: Add Existing Users
 Plugin URI:
 Description: Allows you to bulk add existing users to a site, including the facility to set their role.
-Author: WPMUDEV
+Author: WPMU DEV
 Version: 1.2.1
 Text Domain: add_users
 Author URI: http://premium.wpmudev.org
